@@ -1,0 +1,11 @@
+# Ignore build artifacts
+/build/
+/CMakeCache.txt
+/CMakeFiles/
+/cmake_install.cmake
+/*.vcxproj
+/*.sln
+/*.user
+/*.o
+/*.obj
+/*.exe

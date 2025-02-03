@@ -1,0 +1,52 @@
+enableGPS: true
+enableGLONASS: true
+enableGalileo: true
+enableBeiDou: false
+
+filePaths:
+  GPS: "../importData/2024_300/NYAL00NOR_S_20243000000_01D_GN.rnx"
+  GLONASS: "../importData/2024_300/TLSE00FRA_R_20243000000_01D_RN.rnx"
+  Galileo: "../importData/2024_300/DUMG00ATA_R_20243000000_01D_EN.rnx"
+  BeiDou: ""
+  moonPosVel: "../exportData/moonPosVelMatlab_20Hz_7200s.csv"
+  satPosVelOutput: "../exportData/satPosVel.csv"
+  satEphOutput: "../exportData/satEph.csv"
+  gpsSignalOutput: "../exportData/gpsSignal"
+  glonassSignalOutput: "../exportData/glonassSignal"
+  galileoSignalOutput: "../exportData/galileoSignal"
+  caf2SPOutput: "../exportData/caf2sp.dat"
+
+
+timeEpoch: "2024 10 26 04 00 00"
+timeDuration: 60
+satFrequency: 10
+
+lunarReceiver:
+  latitude: 0
+  longitude: 0
+  altitude: 0
+
+enableLunarSatellites: true
+LunarSatellite:
+    - latitude: 45
+      longitude: 45
+      altitude: 5200E3
+    - latitude: 70
+      longitude: -20
+      altitude: 5200E3
+
+moonPositionECI:
+    - x: -321438637.272465
+      y: 206652329.605099
+      z: 116490344.624813
+
+lobeAngleLimit:
+  mainLobe: 23.5
+  sideLobe: 90
+
+enableSignalOutput: false
+samplingFrequency: 10.23E6
+
+enable2SP: true
+enableDPE: false
+coherentIntegrationTime: 10
