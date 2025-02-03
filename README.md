@@ -1,10 +1,10 @@
-# LunarSim_v0_2
+# GNSSLunarSim_v0_2
 
-LunarSim_v0_2 is a C++/MATLAB simulation tool designed to generating the GNSS received baseband signal on the Moon for lunar positioning algorithm validation.
+GNSSLunarSim_v0_2 is a C++/MATLAB simulation tool designed to generating the GNSS received baseband signal on the Moon for lunar positioning algorithm validation.
 
 ## 📂 Project Structure
 ```
-LunarSim_v0_2/
+GNSSLunarSim_v0_2/
 │── include/               # Header files
 │── src/                   # Source files
 │── external/              # External dependencies (Eigen, FFTW, YAML-CPP)
@@ -24,8 +24,8 @@ LunarSim_v0_2/
 ### Steps
 1. Clone the repository:
    ```sh
-   git clone https://github.com/yourusername/LunarSim_v0_2.git
-   cd LunarSim_v0_2
+   git clone https://github.com/yourusername/GNSSLunarSim_v0_2.git
+   cd GNSSLunarSim_v0_2
    ```
 2. Create a build directory and configure:
    ```sh
@@ -38,11 +38,11 @@ LunarSim_v0_2/
    ```
 4. Run:
    ```sh
-   ./LunarSim_v0_2
+   ./GNSSLunarSim_v0_2
    ```
 
 ## 📌 Program Versions
-LunarSim_v0_2 is available in two versions:
+GNSSLunarSim_v0_2 is available in two versions:
 - **C++ Implementation**: Generates and samples the GNSS received signal on the Moon for analysis.
 - **MATLAB Implementation**: Provides real-time signal generation and processing for lunar GNSS signals without saving signal records. This version allows users to develop and test positioning algorithms at the baseband signal level.
   - Our implementation includes **Two-Step Positioning (2SP)** and **Direct Position Estimation (DPE)** solutions.
