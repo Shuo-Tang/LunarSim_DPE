@@ -45,8 +45,8 @@ lobeAngleLimit:
   mainLobe: 23.5
   sideLobe: 90
 lobeCN0:
-  mainLobe: 50
-  sideLobe: 50 
+  mainLobe: 30
+  sideLobe: 18  
 
 samplingFrequency: 40.92E6
 

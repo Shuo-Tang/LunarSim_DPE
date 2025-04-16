@@ -18,7 +18,7 @@ filePaths:
 
 
 timeEpoch: "2024 10 26 04 00 00"
-timeDuration: 3600
+timeDuration: 600
 satFrequency: 1
 
 moonFrequency: 1
@@ -45,15 +45,15 @@ lobeAngleLimit:
   mainLobe: 23.5
   sideLobe: 90
 lobeCN0:
-  mainLobe: 50
-  sideLobe: 50 
+  mainLobe: 30
+  sideLobe: 25  
 
 samplingFrequency: 40.92E6
 
 solutionFrequency: 1
 enable2SP: true
 enableDPE: true
-coherentIntegrationTime: 40
+coherentIntegrationTime: 10
 ARS:
   dmax: 1000
   dmin: 0.01
