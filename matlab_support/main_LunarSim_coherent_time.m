@@ -6,6 +6,11 @@ close all;
 % ==== include necessary packages ====
 addpath include             % The software receiver functions
 addpath geoFunctions        % Position calculation related functions 
+addpath MoonPosition
+addpath pvtFunctions
+addpath coordinatesFunctions
+addpath signalFunctions
+addpath plotFunctions
 addpath(genpath('goGPS'))
 rng(1);
 % ==== read settings in yaml ====
